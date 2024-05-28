@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4382012957791578308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6881276425279474228}
+  - component: {fileID: 9092098479204195628}
+  m_Layer: 0
+  m_Name: QuizManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6881276425279474228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4382012957791578308}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 331.1355, y: 167.42345, z: 1.7907809}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9092098479204195628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4382012957791578308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bab07e6b308aa347974eb4c984fac01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionAnswers:
+  - Question: What was the job of Angel?
+    Answer:
+    - VR Developer
+    - VR Audio Engineer
+    - VR Proyect Manager
+    - VR Designer
+    CorrectAnswer: 2
+  - Question: What is the current phase of the project?
+    Answer:
+    - Beginning
+    - Planning
+    - Design
+    - Monitoring
+    CorrectAnswer: 3
+  - Question: What have been integraded?
+    Answer:
+    - New color format
+    - Text to speech help
+    - Ambient sounds
+    - "360\xB0 video format"
+    CorrectAnswer: 4
+  - Question: What is ambisonic?
+    Answer:
+    - Technique for audio
+    - Good practice for VR design
+    - A type of ambient colors
+    - Technique for creating visual cues
+    CorrectAnswer: 1
+  - Question: 'What does the six degree of freedom allow? '
+    Answer:
+    - More liberty in interaction
+    - More natural movement
+    - Better quality of sound
+    - Better ridig movement
+    CorrectAnswer: 2
+  options:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  currentQuestion: 0
+  QuestionTxt: {fileID: 0}
+  ScoreTxt: {fileID: 0}
+  totalQuestions: 0
+  score: 0
+  quizPanel: {fileID: 0}
+  gameOverPanel: {fileID: 0}
+  gameWinPanel: {fileID: 0}
