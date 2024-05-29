@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6322,7 +6322,7 @@ MonoBehaviour:
   m_text: 'Hecho por:
 
 
-    Vallery Mishel Carvajal Oreamuno
+    Valery Mishel Carvajal Oreamuno
 
     Marco Vinicio Rodriguez
     Vargas
@@ -7766,7 +7766,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Acerca de\n\nEste es el trabajo final del curso de Introducci\xF3n a la
-    realidad virtual.\nEn el cual se desarrollo un entorno interactivo en el cual
+    realidad virtual.\nEn el cual se desarroll\xF3 un entorno interactivo en el cual
     se  representan escenarios sobre el tema de protecci\xF3n de abejas polinizadoras."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
